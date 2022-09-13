@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STT</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body style="background-color:lightcyan">
+    <div class="container">
+      <h1 class="text-center-mt-5" style="margin-left: 28%; margin-top: 30px">
+        Welcome to the STT and TTS page
+      </h1>
+      <div class="form-group">
+        <textarea
+          id="textbox"
+          cols="50"
+          rows="1"
+          class="form-container"
+          style="margin-left: 28%;resize: none;"
+        ></textarea>
+        <!-- <button
+          id="startStt"
+          class="btn btn-success"
+          style="margin: 20px; margin-left: -15.9rem; margin-bottom: -110px"
+        >
+          Click to Start
+        </button> -->
+        <alert
+          id="instructions"
+          style="font-weight: 500; font-size: 20px; margin-left:380px; background-color: lightcoral;"
+        >
+          Click on the mic Icon to start</alert>
+      </div>
+      <img src="mic.jpg" class="micIcon" id = "startStt" alt="" style="height: 30px;width: 30px;margin-left: 720px; margin-top: -130px; cursor: pointer;"></img>
+
+      <!-- <img src="speaker.jpg" alt="" id="startTts" style="height: 30px; margin-left: 758px; margin-top: -178px; cursor: pointer;"> -->
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script3.js"></script>
+  <script src="./p5.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script> -->
+  <script src="./addons/p5.sound.js"></script>
+</html>
